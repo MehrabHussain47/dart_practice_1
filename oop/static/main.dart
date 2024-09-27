@@ -10,7 +10,7 @@ void main(){
 
   BankAccount.getMessageFromBank();
 
-  //BankAccount account = BankAccount();
+  //BankAccount account = BankAccount(); --> Object
 
   Calculator.subtract(1, 4);
   Calculator.add(1, 4);
