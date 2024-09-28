@@ -1,6 +1,14 @@
+import 'dart:io';
+
 void main(){
 
-  Account person1 = Account('Rafat','845', 10000); /// User input diye korte hobe
+  String? name = stdin.readLineSync()!; /// Amir
+  String? acc = stdin.readLineSync()!; /// 867
+  double? blnc = double.parse(stdin.readLineSync()!); /// 10000
+
+  Account person1 = Account(name, acc, blnc);
+
+  /*Account person1 = Account('Rafat','845', 10000); /// User input diye korte hobe*/
 
   person1.displayAccount();
   
